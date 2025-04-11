@@ -37,7 +37,7 @@
 ## Demo
 RViz
 ```
-ros2 run rviz2 rviz2 -d ./ws02/src/tuw_object_map/config/object_map.rviz
+ros2 run rviz2 rviz2 -d ./ws02/src/tuw_object_map/tuw_object_map/config/object_map.rviz
 ```
 
 Object_map (Replace the command with one from above)
@@ -53,5 +53,5 @@ ros2 run tuw_graph_voronoi graph_voronoi_node --ros-args -p map_topic:=object_ma
 
 ### tmuxinator
 ```bash
-tmuxinator start -p ./ws02/src/tuw_object_map/tuw_object_map/tmux/object_map_with_satelitt_image.yml
+tmuxinator start -p ./ws02/src/tuw_object_map/tmux/straden.yml
 ```
